@@ -31,7 +31,7 @@ COPY --from=build /app .
 
 # Exposer le port sur lequel l'application s'exécute (ici 5000)
 # Cela documente le port, mais il doit être mappé lors de l'exécution
-EXPOSE 5000
+EXPOSE 5001
 
 # Assurez-vous que votre application est configurée pour écouter sur 0.0.0.0
 # pour être accessible en dehors du conteneur.
